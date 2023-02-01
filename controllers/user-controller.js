@@ -45,7 +45,7 @@ let details = {
     from: "vinity09156@gmail.com",
     to:user.email,
     subject: "testing",
-    text:`http://localhost:3000/users/${user.id}`
+    text:`https://vinitauth.netlify.app/users/${user.id}`
 }
 
 mailTransporter.sendMail(details,(err)=>{
